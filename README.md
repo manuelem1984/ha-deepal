@@ -8,7 +8,7 @@
 
 Custom Home Assistant integration for the Changan Deepal cloud API.
 
-This integration was built against a UK-market Deepal S07 and a Portugal-market Deepal S05. S07 support includes telemetry and remote controls when enabled. S05 support is currently **read-only** via the app's MQTT telemetry path.
+This integration was built against a UK-market Deepal S07 and European-market Deepal S05 (including the Portugal MQTT implementation). Spain (ES) is enabled as an additional login region; the Spanish backend/MQTT behavior still needs to be validated with a Spanish account. S07 support includes telemetry and remote controls when enabled. S05 support is currently **read-only** via the app's MQTT telemetry path.
 
 ## Important Warnings
 
@@ -22,7 +22,7 @@ This integration was built against a UK-market Deepal S07 and a Portugal-market 
 
 - Deepal S07: telemetry and optional remote controls.
 - Deepal S05: read-only telemetry.
-- Login regions: United Kingdom, Israel, Portugal
+- Login regions: United Kingdom, Israel, Portugal, Spain (ES)
 
 ## Current Features
 
